@@ -1,0 +1,407 @@
+*{
+    list-style-type:none;
+    
+}
+
+html,body{
+    overflow-x:hidden;
+}
+html{
+    scroll-behavior:smooth;
+}
+/* header section starts here */
+nav ul li{
+    margin-right:3rem;
+    margin-top:1rem;;
+}
+nav ul li a{
+    text-decoration:none;
+   color:#7c1b08;
+   font-weight:735;
+}
+nav ul li a:hover{
+    color:red;
+}
+.num{
+    background-color: #7c1b08;
+ 
+    padding:4px 5px;
+    color:white;
+    text-shadow:1px 0px 1px white;
+    box-shadow:1px 1px 2px black;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    margin:1% 4%;
+    background-color:#fff;
+    
+}
+nav ul{
+    display:flex;
+}
+/* Media queries for heading bar */
+@media screen and (max-width:600px){
+    header{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+    }
+    nav ul{
+        display:block;
+    }
+    nav ul li{
+        margin-top:1rem;
+    }
+    .num{
+        width:50%;
+        margin-left:5rem;
+        margin-top:1.6rem;
+    }
+
+}
+.num{
+    transition:.5s;
+    cursor:pointer;
+    font-weight:600;
+}
+.num:hover{
+    background-color:white;
+    color:#7c1b08;
+    
+}
+/* header section ends here */
+
+/* main section starts here */
+.inv-btn{
+    border:none;
+    padding:2% 2%;
+    font-size:0.9rem;
+    color:white;
+    box-shadow:1px 1px 1px;
+    font-weight:450;
+    background-color: #7c1b08;
+}
+.inv2-btn{
+    border:none;
+    padding:1% 2%;
+    
+     margin-left:0.4rem;
+}
+.invv h2{
+    margin-bottom:1rem;
+    font-weight:750;
+    color: #7c1b08;
+}
+.invest{
+    padding:4% 10%;
+    background-color:#eee;
+}
+
+.invv{
+    margin-top:4rem;
+}
+@media screen and (max-width:600px){
+.invv{
+    text-align:center;
+}
+
+}
+.inv2-btn{
+    transition:transform .4s;
+}
+.inv2-btn:hover{
+    transform:scale(1.1);
+}
+.inv-btn{
+    transition:transform .4s;
+
+}
+.inv-btn:hover{
+    transform:scale(1.1);
+}
+/* details section starts here */
+.details{
+    background-color:#7c1b08;
+    color:white;
+    padding:5% 8%;
+}
+@media screen and (max-width:600px){
+    .details{
+        text-align:center;
+        
+    }
+}
+/* details section ends here */
+/* about section starts here */
+.about-section{
+    padding:4% 10%;
+    background-color:#f9f9f8;
+}
+.about-img{
+    height:100%;
+    width:100%;
+}
+.pride{
+    margin-top:7rem;
+}
+.pride p{
+    margin-top:1.3rem;
+}
+.inv-btn{
+    margin-top:1rem;
+}
+/* about section ends here */
+
+/* food section starts here */
+.food{
+    padding:4% 10%;
+}
+.exception-1{
+    margin-top:10rem;
+}
+.exception-1 h3{
+    font-size:2rem;
+}
+.exception-1 p{
+    margin-top:1.4rem;
+    
+}
+.div-1 i{
+    color:#7c1b08;
+}
+.div-1 span{
+    margin-left:5px;
+}
+.inv-btn-2{
+    border:none;
+    padding:2% 2%;
+    font-size:1.1rem;
+    color:white;
+    box-shadow:1px 1px 1px;
+    font-weight:450;
+    background-color:#7c1b08;
+    transition:.5s;
+}
+.inv-btn-2:hover{
+     background-color:white;
+     color:black;
+     box-shadow:1px 1px 1px #7c1b08;
+}
+/* food section sends here */
+
+/* Stomach section starts here */
+.stomach{
+ height:53vh;
+ background-image:url('bg-2.jpg');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ padding:8% 3%;
+ 
+}
+.banner-1{
+    text-align:center;
+}
+.inv-btn-3{
+    border:none;
+    padding:12px 14px;
+    font-size:1.1rem;
+    color:white;
+    box-shadow:1px 1px 1px;
+    font-weight:450;
+    background-color:#7c1b08;
+    transition:.6s;
+}
+.inv-btn-3:hover{
+    background-color:white;
+    color:black;
+    box-shadow:1px 1px 1px #7c1b08;
+    border:1px solid #7c1b08;
+}
+/* Stomach section ends here */
+
+/* explore section starts here */
+.explore{
+    text-align:center;
+   padding:4% 10%;
+
+}
+.explore h2{
+    color:#7c1b08;
+}
+.sec img{
+    border-radius:13px;
+}
+.price-1{
+    margin-right:1rem;
+    color:#7c1b08;
+    font-weight:bolder;
+}
+.price-2{
+    text-decoration:line-through;
+    color:grey;
+    font-weight:bolder;
+}
+.f-details{
+    text-align:left;
+}
+/* explore section ends here */
+
+/* carousel section starts here */
+.testimonial{
+    padding:4% 10%;
+    text-align:center;
+    background-color:#7c1b08;
+}
+.carousel-item img{
+   max-width:12rem;
+}
+.testimonial .carousel-indicators{
+    bottom:-2.7rem;
+}
+.carousel-indicators button{
+  
+   outline:none;
+   height:15px;
+   width:15px;
+   border-radius:20%;
+   border:none;
+   margin-right:1rem;
+   
+}
+.name{
+    
+    padding-bottom:2rem;
+}
+.name span{
+    font-weight:bolder;
+}
+/* carousel section ends here */
+/* faq section starts here */
+.faq-section{
+    padding:4% 10%;
+  
+}
+.faq-section h3{
+    margin-bottom:5rem;
+    color:#7c1b08;
+}
+.col-lg-6 #text1{
+    font-weight:bolder;
+    color:#7c1b08;
+}
+
+/* faq section ends here */
+
+/* backed section starts here */
+.backed{
+    background-image:url('bg-3.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height:43vh;
+   
+}
+.banner-contents{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+}
+.banner-contents h3{
+    margin-top:9rem;
+}
+.inv-btn-5{
+    border:none;
+    padding:12px;
+    background-color:#c44222;
+    color:white;
+    margin-top:9rem;
+    border:1px solid #c44222;
+    transition:.4s;
+}
+.inv-btn-5:hover{
+    background:none;
+}
+@media screen and (max-width:600px){
+    .banner-contents{
+        display:flex;
+        flex-direction:column;
+    }
+    .inv-btn-5{
+        margin-top:0;
+    }
+    .banner-contents h3{
+        margin-bottom:2rem;
+        background-color:rgba(0,0,0,0.3);
+        padding:7px;
+    }
+   body{
+       overflow-y:hidden;
+   }
+}
+/* backed section ends here */
+/* hurry section starts here */
+.hurry-section{
+    padding:5% 10%;
+    background-color:#eee;
+}
+.about-contents{
+    text-align:center;
+}
+.about-contents h3{
+    color:#7c1b08;
+}
+.mail-address-bar{
+    text-align:center;
+}
+input[type=email]{
+    width:401px;
+    transition:.4s;
+    height:36px;
+    margin-top:1.4rem;
+    border:2px solid #c44222;
+    text-indent:12px;
+    
+}
+.sub-btn{
+    border:none;
+    padding:7px;
+    background-color:#7c1b08;
+    color:white;
+}
+::placeholder{
+    font-size:15px;
+    padding:4px 12px;
+    margin-right:15rem;
+}
+/* hurry section ends here */
+/* footer section starts here */
+footer{
+    text-align:center;
+    background-color:#7c1b08;
+    padding:4% 0;
+}
+.div-1 ul li{
+    display:inline;
+    margin-left:1.6rem;
+}
+.div-1 ul li a{
+text-decoration:none;
+color:white;
+}
+.div-2 ul li{
+    display:inline;
+    margin-left:1.3rem;
+}
+.div-2 ul li a{
+    color:white;
+}
+.f-span{
+    color:white;
+    margin-left:3rem;
+    
+}
+/* footer section ends here */
